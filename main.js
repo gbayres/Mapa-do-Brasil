@@ -36,7 +36,7 @@ const getMax = (data) => {
 
 const MAX = getMax(data); 
 
-//RETORNA UM INDICE ENTRE 0 E 1, SENDO 1 O MAIOR VALOR
+//RETORNA UM INDICE ENTRE 0 E 255
 
 const indice = (num, MAX) => ( 
     parseInt(num*255/MAX)
