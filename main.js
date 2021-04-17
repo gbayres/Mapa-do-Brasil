@@ -49,5 +49,5 @@ for (item in data) {
 
     var index = indice(data[item], MAX)
     
-    estado.style.fill = "rgb(" + index + ",0,0)";
+    estado.style.fill = "rgb(" + index + ",0,55)";
 }
